@@ -4,6 +4,7 @@
 
 虽然现在还没什么内容，但后期会丰富的（也许罢……（bushi（）
 
+###### [留言板](https://github.com/Muh-Yih/Muh-Yih.github.io/discussions)
 ---
 ###### 外部链接
 ###### [我的洛谷博客](https://muhyih.blog.luogu.org/)
