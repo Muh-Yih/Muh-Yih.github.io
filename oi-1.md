@@ -6,12 +6,12 @@
 
 ## 题意
 
-给定一棵 $N$ 节点的树，边形如 $(u_i, v_i)$。维护以下操作 $Q$ 次：
+给定一棵 N 节点的树，边形如 (u_i, v_i)。维护以下操作 Q 次：
 
-- $op_i = 1$，指定一条边 $i$，将所有从 $u_i$ 出发，**不经过这条边就能到达**的点，点权加 $k$。
-- $op_i = 2$，指定一条边 $i$，将所有从 $v_i$ 出发，**不经过这条边就能到达**的点，点权加 $k$。
+- op_i = 1，指定一条边 i，将所有从 u_i 出发，**不经过这条边就能到达**的点，点权加 k。
+- op_i = 2，指定一条边 i，将所有从 v_i 出发，**不经过这条边就能到达**的点，点权加 k。
 
-输出最终每个点的点权。初始点权为 $0$。
+输出最终每个点的点权。初始点权为 0。
 
 ## 分析
 
@@ -41,21 +41,21 @@
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/8hxywvyh.png)
 
-考虑第 $i$ 次操作为 $op_i,e_i,k_i$，无论 $op_i=1$ 还是 $op_i=2$，都会选中一条边，其中一个顶点作为出发点。
+考虑第 i 次操作为 op_i,e_i,k_i，无论 op_i=1 还是 op_i=2，都会选中一条边，其中一个顶点作为出发点。
 
-记出发点为 $st$，另一个顶点为 $at$，节点 $x$ 深度为 $depth_x$（$depth_1=1$）。
+记出发点为 st，另一个顶点为 at，节点 x 深度为 depth_x（depth_1=1）。
 
-若 $depth_{st} < depth_{at}$，则修改的节点为树上除 $at$ 的子树（包括 $at$）外的所有节点；若 $depth_{st} > depth_{at}$，则修改的节点为 $st$ 的子树（包括 $st$）。
+若 depth_{st} < depth_{at}，则修改的节点为树上除 at 的子树（包括 at）外的所有节点；若 depth_{st} > depth_{at}，则修改的节点为 st 的子树（包括 st）。
 
-比如，对于操作 ```2 2 1``` ，有 $st=v_2=3,at=u_2=2;depth_{st}=depth_3=3,depth_{at}=depth_2=2$。此时 $depth_{st} > depth_{at}$。修改节点如下：
+比如，对于操作 ```2 2 1``` ，有 st=v_2=3,at=u_2=2;depth_{st}=depth_3=3,depth_{at}=depth_2=2。此时 depth_{st} > depth_{at}。修改节点如下：
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/xhi5n480.png)
 
-对于操作 ```1 6 8``` ，有 $st=u_6=3,at=v_6=7;depth_{st}=depth_3=3,depth_{at}=depth_7=4$。此时 $depth_{st} < depth_{at}$。修改节点如下：
+对于操作 ```1 6 8``` ，有 st=u_6=3,at=v_6=7;depth_{st}=depth_3=3,depth_{at}=depth_7=4。此时 depth_{st} < depth_{at}。修改节点如下：
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/5h36577g.png)
 
-于是我们可以建一个差分数组 $d[N]$ ：对于操作 $op_i,e_i,k_i$，若 $depth_{st} < depth_{at}$，则 $d[1]+=k_i,d[at]-=k_i$；若 $depth_{st} > depth_{at}$，则 $d[st]+=k_i$。
+于是我们可以建一个差分数组 d[N] ：对于操作 op_i,e_i,k_i，若 depth_{st} < depth_{at}，则 d[1]+=k_i,d[at]-=k_i；若 depth_{st} > depth_{at}，则 d[st]+=k_i。
 
 最后从根往下统计答案即可。
 
@@ -65,7 +65,7 @@
 - 每次询问修改差分数组
 - 统计答案
 
-我的代码中使用 DFS 处理深度，时间复杂度 $O(N)$；每次询问修改差分数组，时间复杂度 $O(Q)$；使用 DFS 统计答案，时间复杂度 $O(N)$；总时间复杂度 $O(N+Q)$。
+我的代码中使用 DFS 处理深度，时间复杂度 O(N)；每次询问修改差分数组，时间复杂度 O(Q)；使用 DFS 统计答案，时间复杂度 O(N)；总时间复杂度 O(N+Q)。
 
 ## 代码
 ```cpp
