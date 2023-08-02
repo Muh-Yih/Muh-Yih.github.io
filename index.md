@@ -4,6 +4,8 @@
 
 这是一个使用 Markdown 编写，部署在 GitHab 上的博客
 
+~~你问我为什么不用 HTML ？因为我不会……（）~~
+
 ---
 ###### 外部链接
 ###### [我的洛谷博客](https://muhyih.blog.luogu.org/)
