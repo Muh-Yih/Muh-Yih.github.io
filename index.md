@@ -1,7 +1,5 @@
 # 暮呓的博客
 
-[![Page Views Count](https://badges.toozhao.com/badges/01H81A8Y3HC4DQHJJ6W5KSCJ9R/blue.svg)](https://badges.toozhao.com/stats/01H81A8Y3HC4DQHJJ6W5KSCJ9R "Get your own page views count badge on badges.toozhao.com")
-
 欢迎来到暮呓的博客！
 
 这是一个使用 Markdown 编写，部署在 GitHab 上的博客
