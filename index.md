@@ -8,7 +8,7 @@
 
 因为是 Markdown ，所以所有页面都是静态的，互动性上会差很多，还请大家见谅……
 
-有任何建议、评论或想法，可以在[讨论版](https://github.com/Muh-Yih/Muh-Yih.github.io/discussions)发帖
+有任何建议、评论或想法，可以在[留言版](https://note.ms/jrlg)留言！
 
 本博客在 [GitHub](https://github.com/Muh-Yih/Muh-Yih.github.io/) 上开源，转载请标明原作者
 
