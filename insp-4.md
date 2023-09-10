@@ -4,7 +4,7 @@
 
 发布时间：2023年9月9日 22:54
 
-![Geopelia](https://picst.sunbangyan.cn/2023/09/09/112v1bw.jpg)
+![Geopelia](https://picdl.sunbangyan.cn/2023/09/10/fnbixh.jpg)
 
 是晚自习摸鱼用电子辞典画的一只咕咕！
 
