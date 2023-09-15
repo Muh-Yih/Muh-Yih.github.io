@@ -12,7 +12,7 @@
 
 有任何建议、评论或想法，可以在[留言版](https://note.ms/jrlg)留言！
 
-本博客在 [GitHub](https://521github.com/Muh-Yih/Muh-Yih.github.io/) 上开源，转载请标明原作者
+本博客在 [GitHub](https://github.com/Muh-Yih/Muh-Yih.github.io/) 上开源，转载请标明原作者
 
 ## 文章分类
 
