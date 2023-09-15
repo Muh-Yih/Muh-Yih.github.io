@@ -2,7 +2,7 @@
 
 欢迎来到暮呓的博客！
 
-这是一个使用 Markdown 编写，部署在 GitHab 上的博客
+这是一个使用 Markdown 编写，部署在 GitHub 上的博客
 
 关于博主的介绍可以点击[这里](intro.md)！
 
