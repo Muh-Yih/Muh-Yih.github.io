@@ -8,7 +8,7 @@
 
 生理性别为男，心理性别待定（？）
 
-一位 OIer，不过目前只拿到过 CSP-J 三等，正在争取 NOIP 2023 一等
+一位 OIer，不过目前只拿到过 CSP-J 三等，正在争取 NOIP 2023 三等
 
 平时在线时间极其稀有，假期相对丰富，不过一旦在线消息必秒回！（如果没有秒回那一般是手机在我妈那里（）
 
@@ -37,7 +37,7 @@
 
 - B站：[@暮呓-Muh_Yih](https://space.bilibili.com/290242604)
 - LOFTER：[@Seven Celsius Sunny](https://seven-celsius-sunny.lofter.com/)
-- QQ：3256928847
+- QQ：2077853540
 
 希望能和大家友好相处！
 
